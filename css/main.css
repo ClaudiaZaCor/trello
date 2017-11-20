@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+body {
+    background-color: #1D8DC2;
+}
+
+header{
+    background-color: darkblue;
+    height: 45px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.box-container{
+    width: 270px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgba(25, 27, 25,0.3);
+    color: #b8dec3;
+    padding: 10px;
+    font-size: 14px;
+    float: left;
+}
+
+.box-container:hover , .box-title-table li:hover{
+    background-color:rgba(25, 27, 25,0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-title-table {
+    color: white;
+    margin: 10px;   
+}
+
+.box-title-table li {
+    display: inline-block;
+    margin:0px 5px;
+    box-sizing: content-box;
+    padding: 5px;
+}
+
+.text-menu{
+    float: right;
+}
+
+.text-menu a {
+    color: white;
+}
+
+.box-table{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+    background-color: rgba(255, 255, 255,0.3);
+    width: 130px;
+    height: 30px;;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    position: absolute;
+}
+
+.box-table span {
+    margin-right: 10px;
+}
+
+.box-search {
+    background-color: rgba(255, 255, 255,0.3);
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+.box-search i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    }
+
+.box-search input {
+    border: none;
+    background: transparent;
+    height: 25px;
+}
+
+header img {
+    width:100px; 
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 600px;
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+}
+
+.rigth-section li {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 2.5px;
+    background-color: rgba(255, 255, 255,0.3);
+    border-radius: 5px;
+}
+
+.rigth-section {
+    margin-top: -35px;
+    margin-left: 400px;
+    float: right;
+}
